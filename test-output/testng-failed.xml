@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="Main.main">
+        <methods>
+          <include name="RadixSorting"/>
+          <include name="finish"/>
+          <include name="BubbleSorting"/>
+          <include name="InsertionSorting"/>
+          <include name="setup"/>
+          <include name="QuickSorting"/>
+          <include name="SelectionSorting"/>
+          <include name="main"/>
+        </methods>
+      </class> <!-- Main.main -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
